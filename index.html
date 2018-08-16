@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Synonyms Search Application</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+
+    <body>
+        <!-- container -->
+        <div class="container">
+                <div class="row" id="mainTitle">
+                    <div class="col-md-12">
+                        <h2 >Synonyms Search Dictionary</h2>
+                    </div>
+                </div>
+
+                <!-- input-group -->
+                <div class="row" id="input">
+                    <div class="col-md-12">
+                        <div class="input-group input-group-lg">
+                          <input type="text" class="form-control" placeholder="type in a word..." id="ajaxTextbox" value="";>
+                          <span class="input-group-btn">
+                                <button type="button" class="btn btn-default" id="ajaxButton">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                          </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- /input-group -->
+
+            <!-- section main -->
+            <div class="row" >
+                <h1 id="top"></h1>
+                <!-- rowLeft -->
+                                                                                                                           
+																															   
+					<div class="col-sm-6">
+                    <div class="" id="rowLeft">
+                        <h1 id="word"></h1>
+                        <h3 id="partOfSpeech"></h3>
+                        <h4 id="definitions"></h4>
+                        <h4 id="source"><small></small></h4>
+                    </div>
+                </div>    
+                <!-- /rowLeft -->
+                <!-- rowRight -->
+                <div class="col-sm-6">
+                    <div class="" id="rowRight">
+                        <h3 id="typeOfRelation"></h3>
+                        <h4 id="relatedWords" class="synLink"></h4>
+                    </div>
+                </div>
+                <!-- /rowRight -->
+            </div>
+            <!-- /section main -->
+
+        </div>
+        <!-- /contatiner -->
+
+        <script type="text/javascript" src="scripts/script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    </body>
+
+</html>

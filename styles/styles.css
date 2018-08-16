@@ -1,0 +1,88 @@
+body {
+    background-image: url('words.jpeg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgb(21, 29, 77);
+}
+
+#mainTitle {
+    text-align: right;
+    color: white;
+    text-shadow: 2px 3px 3px black;
+    padding: 0 0 15px 0;
+}
+
+#mainSubTitle {
+    text-align: left;
+    text-shadow: 1px 1px 2px white;
+    font-style: oblique;
+}
+
+#ajaxButton {
+    cursor: pointer;
+}
+
+#wrongWord {
+    color: rgb(255, 80, 80);
+}
+
+#word {
+    font-size: 45px;
+}
+
+#source, #source2 {
+    color: rgb(181, 181, 181);
+    text-shadow: 1px 1px 2px black;
+}
+
+#relatedWords {
+    font-size: 30px;
+}
+
+#partOfSpeech, #typeOfRelation {
+    font-size: 40px;
+    color: rgb(147, 147, 147);
+    text-shadow: 1px 1px 1px black;
+    text-align: left;
+}
+
+#typeOfRelation {
+    padding-left: 20px;
+}
+
+#input {
+    padding-bottom: 40px;
+}
+
+#nameLink {
+    color: white;
+}
+
+
+.jumbotron {
+    background-color: rgba(91, 90, 126, .0);
+}
+
+.green {
+    color: rgb(169, 255, 139);
+}
+
+.footer {
+    text-align: right;
+    padding: 100px 20px 20px 20px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.synLink {
+    display: inline-block;
+    margin-left: 10px;
+    text-shadow: 2px 2px 2px black;
+    cursor: pointer;
+    color: white;
+}
+
+.synLink:hover {
+    color: green;
+}
